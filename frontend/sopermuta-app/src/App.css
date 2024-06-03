@@ -1,0 +1,19 @@
+.redes-sociais li:hover{
+    color: burlywood;
+}
+
+.vermelho{
+    background: red;
+}
+
+.slide-item{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+ 

@@ -1,0 +1,16 @@
+.boxSidebar{
+    border: 1px solid #fff;
+}
+
+
+.textBox{
+    font-size: 20px;
+    font-weight: 700;
+}
+.painelSecion2{
+    width: 100%;
+}
+
+.divShow{
+    display: none;
+}

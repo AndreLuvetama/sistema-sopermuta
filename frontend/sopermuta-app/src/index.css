@@ -1,0 +1,439 @@
+:root{
+    --fonte: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    --branco: #ffffff;
+    --preto: #000000;
+    --cinza: #333131;
+    --laranja: #FF8000;
+}
+
+a:link, a:active, a:visited {
+	color: var(--branco);
+	text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: var(--preto);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--laranja);
+}
+
+a:hover {
+	color: var(--laranja);
+    font-weight: bold;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+body {
+    margin: 0;
+    font-family: var(--fonte);
+    background-color: var(--branco);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  div.divisor{
+    height: 4px;  
+    background: var(--laranja);
+    text-align: center;  
+    width: 60%;
+    margin: 10px auto;
+  }
+
+  div.divisor span{
+    background-color: white;
+    position: relative;
+    top: -0.7em;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 23px;
+
+  }
+
+  div.divisor2{
+    height: 0px;  
+    border-style: ridge solid;
+
+    text-align: center;  
+    width: 50%;
+    margin: 10px auto;
+  }
+
+  div.divisor2 span{
+  
+    position: relative;
+    top: -0.7em;
+    padding: 0 10px;
+
+    font-size: 23px;
+
+  }
+
+
+  #interesses  h5{
+    color: var(--laranja);
+  }
+
+  #interesses p{
+    font-size: 14px;
+  }
+
+ 
+
+  #comofunciona .circulo{
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    border:  1px ridge var(--laranja);
+    background: var(--branco);
+
+
+  }
+  #comofunciona div{
+    z-index: 1;
+  }
+
+
+.hrcomofuniona{
+  margin: -190px auto;
+  width: 50%;
+  position: relative;
+  border-top: 1px ridge var(--laranja);
+  z-index: 0;
+
+}
+  
+.icon-box{
+  color: var(--laranja);
+  width: 50px;
+  height: 50px;
+  margin-top: 70px;
+}
+
+.icon-box2{
+  color: var(--laranja);
+  width: 50px;
+  height: 50px;
+ 
+}
+
+#categoria{
+  margin-top: 400px;
+
+  text-align: center;
+  
+}
+ #categoria .imoveis-categoria, .icon-box2{
+
+  margin-top: 20px;
+  margin-left: 6px;
+  margin-right: 6px;
+ }
+
+#categoria .icon-box2{
+  color: var(--cinza);
+  cursor: pointer;
+}
+
+#categoria .imoveis-categoria:hover {
+  background-color: var(--laranja);
+  color: var(--branco);
+  cursor: pointer;
+
+}
+
+#categoria .icon-box2:hover{
+  color: var(--branco);
+  cursor: pointer;
+}
+footer{
+  background: var(--preto);
+  color: var(--branco);
+}
+
+#informacao h4{
+  color: var(--laranja);
+}
+.titulo{
+  color: var(--laranja);
+}
+.btn-laranja{
+  border-radius: 5px;
+  border: 1px solid var(--laranja);
+  background: var(--laranja);
+  color: var(--preto);
+}
+.btn-laranja:hover{
+  background: #ee9f50;
+}
+
+.btn-heart{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--laranja);
+  color: var(--laranja)
+}
+
+.btn-heart:hover, .color-orange:hover{
+  background: var(--laranja);
+  color: var(--preto);
+}
+.img-quemsomos{
+  width: 400px;
+  height: 350px;
+  float: right;
+}
+.img-barra{
+  background: url(../src/assets/img/imghome/fundo.jpg),
+  linear-gradient(50deg, #d37d0d, #f89d2688);
+  height: 150px;
+  width: 100%;
+  padding-top: 30px;
+}
+.texto-barra{
+  color: var(--laranja);
+  font-weight: 400;  
+}
+
+/*Página selecionada*/
+.selected{
+	background-position: right bottom;
+    background-color: #f99200;
+	 color: #fff;
+}
+
+/*Página selecionada*/
+#home #navegacao .home Nav.Link , 
+#quemsomos #navegacao .quemsomos Link ,
+#comofunciona #navegacao .comofunciona Nav.Link {
+	background-position: right bottom;
+    background-color: #f99200;
+	color: #fff;
+}
+
+.boxshadow{
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.textl{
+  text-align: center;
+}
+
+.btn-login{
+  width: 100%;
+  background: var(--laranja);
+  padding: 5px;
+  color: #000000;
+  border-radius: 5px;
+  font-size: 1.3em;
+  border: 1px solid var(--laranja);
+}
+
+.btn-login:hover{  
+  background: #ee9f50  
+}
+.btn-link{
+  background-color: var(--laranja);
+  padding: 5px 10px 5px 10px;
+  color: var(--preto);
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+
+.btn-link a:hover{
+  background-color: #ee9f50;
+  color: var(--preto);
+}
+
+/*estilo tab*/
+.tab{
+  background: var(--cinza);
+  color: var(--branco);
+  margin: 0;
+}
+.tab ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab li{
+  list-style: none;
+  font-weight: 400;
+  font-size: 1.1em;
+
+}
+.tab li a:hover{
+  background: var(--laranja);
+  color: var(--branco);
+}
+
+.divisoria-tab{
+  margin-top: 250px;
+}
+#meusdados1.nav-link{
+  background: var(--laranja);
+  color: var(--branco);
+}
+#meusdados.nav-link:hover{
+  background: var(--laranja);
+  color: var(--branco);
+}
+
+#meuimovel.nav-link:hover{
+  background: var(--laranja);
+  color: var(--branco);
+}
+
+#meuimovel.NavLink:hover{
+  background: var(--laranja);
+  color: var(--branco);
+}
+
+#meusdados.nav-link{
+  background: var(--laranja);
+  color: var(--branco);
+}
+
+.texto{
+  color: var(--laranja);
+}
+.texto:hover{
+  color: #000000;
+}
+ .bt-active:hover{
+background: var(--laranja);
+color: var(--preto);
+}
+.bt-active:active{
+  background: var(--laranja);
+  color: var(--preto);
+  }
+
+#btactive #left-tabs-example .bt-active:active{
+  background: var(--laranja);
+  color: var(--preto);
+  }
+  .content{
+  display: none;
+}
+.show-content{
+  display: block;
+}
+
+.Tab.Container  .nav .NavItem .NavLink.active {
+  color: orangered;
+  background-color: #fff;
+  border-color: none;
+}
+
+
+main{
+  width: 100%;
+  padding: 20px;
+}
+.sidebar{
+  background: var(--cinza);
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+}
+
+
+.logo{
+  font-size: 30px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background: var(--laranja);
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  background: var(--laranja);
+  color: #000;
+}
+.icon, .link_text{
+  font-size: 16px;
+}
+
+#sidebar{
+  display: flex;
+}
+.row{
+  margin:0;
+  padding:0;
+}
+
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus,
+.form-control:focus {
+  border-color: #ee9f50;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(245, 152, 47, 0.6);
+}
+
+
+.textArea  {
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #d69f07;
+  border-radius: 4px;
+  background-color: #d12828;
+  font-size: 16px;
+  resize: none;
+}
+
+
+.formbox{
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.swiper-button-prev {
+  color: var(--laranja); 
+}
+
+.swiper-button-next {
+  color: var(--laranja); 
+}
+
+.btn-swipper-nav{
+  background-color: var(--laranja);
+  padding-bottom: 7px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 5px;
+  font-size: 20px;
+  color: var(--branco);
+  border: none;
+  height: 40px;
+  width: 40px;
+}
