@@ -5,9 +5,13 @@ e depois é só esperar uma Match. Feito Match, o usuário poderá iniciar uma n
 **Ferramenta**
 Front
 	React JS  
+ 
         Vite
+	
 	Bootstrap
+ 
         https://react-icons.github.io/react-icons/
+	
 	https://fontawesome.com/icons/trash-alt?f=classic&s=solid
 	
 Back
