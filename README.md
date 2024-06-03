@@ -4,8 +4,7 @@ e depois é só esperar uma Match. Feito Match, o usuário poderá iniciar uma n
 
 **Ferramenta**
 Front
-	React JS<br>
- 
+	React JS 
 	Vite
 	Bootstrap
 	https://react-icons.github.io/react-icons/
@@ -16,5 +15,6 @@ Back
 
 
 Iniciar o projeto
+
 	npm i
 	npm run dev
