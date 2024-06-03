@@ -5,7 +5,7 @@ e depois é só esperar uma Match. Feito Match, o usuário poderá iniciar uma n
 **Ferramenta**
 
 Front
-	React JS  
+ React JS  
  
         Vite
 	
