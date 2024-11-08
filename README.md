@@ -1,6 +1,5 @@
 **Sistema SÓ PERMUTA IMÓVEIS**
-*O sistema permite o cadastro de usuários e a inclusão de um imóvel, ao incluir o imóvel o próprietario informa os seus interesses
-e depois é só esperar uma Match. Feito Match, o usuário poderá iniciar uma negociação de troca de imóvel.*
+*Sistema PERMUTA DE IMÓVEIS (Sistema para troca de imóveis) O sistema permite o cadastro de usuários e a inclusão de um imóvel, ao incluir o imóvel o proprietário informa os itens de interesses, o sistema através do algoritmo faz o encontro de imóveis com os itens semelhante e gera o Match. Feito Match, o usuário poderá iniciar uma negociação para a troca de imóvel. .*
 
 **Ferramenta**
 
